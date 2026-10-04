@@ -102,7 +102,7 @@ The application follows a modular monitoring architecture.
              Monitoring Dashboard
 
              ---
-
+```
 ## 6. Main Modules
 
 ### CPU Monitoring
@@ -177,7 +177,7 @@ LinuxResourceMonitor/
 ├── README.md
 │
 └── monitor
-
+```
 ## 9. Requirements
 
 The following software is required:
@@ -194,6 +194,7 @@ Open a terminal inside the project directory.
 ```bash
 g++ src/main.cpp src/SystemMonitor.cpp src/WebServer.cpp -o monitor
 
+```
 ## 11. Execution
 
 Run the application:
@@ -207,6 +208,7 @@ http://localhost:8080
 
 Open the address in a web browser to view the monitoring dashboard.
 
+```
 ## 12. Anomaly Detection
 
 The system monitors CPU, memory, and disk usage and checks them against predefined threshold values.
